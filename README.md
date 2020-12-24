@@ -28,7 +28,7 @@ Program was implemented using Python, TensorFlow, Keras, and OpenCV. Refer the r
 
 2. After Hyper-parameter Tuning:
 <table>
-  <tr><td>Parameter</td><td>Value</td></tr>
+  <tr><td>Parameters</td><td>Values</td></tr>
   <tr><td>Dilation</td><td>1</td></tr>
   <tr><td>Stride</td><td>1</td></tr>
   <tr><td>Optimizer</td><td>Adam</td></tr>
