@@ -3,17 +3,17 @@
 Program implements a basic convolutional neural network for classifying images of numbers in the MNIST dataset as either even or odd using GPU framework.
 1. Contructing CNN: MNIST dataset is split into training, validation, and testing subsets with 55000, 10000, and 5000 examples, respectively. Digit labels are converted to even or odd using 0 and 1. Also plotting training and validation loss and accuracy as a function of epochs.
 2. Hyper-parameters Tuning: Evaluating different variations of basic network by changing:
-** network architecture
-** receptive field
-** stride
-* optimizer
-* loss function
-* dropout
-* learning rate
-* number of epochs
-* weight initializers
-* batch normalization
-* layer normalization
+  * network architecture
+  * receptive field
+  * stride
+  * optimizer
+  * loss function
+  * dropout
+  * learning rate
+  * number of epochs
+  * weight initializers
+  * batch normalization
+  * layer normalization
 3. Inference: Taking images with handwritten digits as input and performing image preprocessing like resizing, converting to grayscale and then to binary image using threshold. Classifying input images into odd/even labels.
 <br/>
 
