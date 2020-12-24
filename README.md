@@ -4,7 +4,7 @@ Program implements a basic convolutional neural network for classifying images o
 1. Contructing CNN: MNIST dataset is split into training, validation, and testing subsets with 55000, 10000, and 5000 examples, respectively. Digit labels are converted to even or odd using 0 and 1. Also plotting training and validation loss and accuracy as a function of epochs.
 2. Hyper-parameters Tuning: Evaluating different variations of basic network by changing:
    * network architecture
-   * receptive field
+   * receptive field using dilation
    * stride
    * optimizer
    * loss function
@@ -27,6 +27,19 @@ Program was implemented using Python, TensorFlow, Keras, and OpenCV. Refer the r
 <br/>
 
 2. After Hyper-parameter Tuning:
+<table>
+  <tr><td>Parameter</td><td>Value</td></tr>
+  <tr><td>Dilation</td><td>1</td></tr>
+  <tr><td>Stride</td><td>1</td></tr>
+  <tr><td>Optimizer</td><td>Adam</td></tr>
+  <tr><td>Loss function</td><td>Binary cross entropy</td></tr>
+  <tr><td>Dropout</td><td>0.3</td></tr>
+  <tr><td>Learning rate</td><td>0.001</td></tr>
+  <tr><td>Weight Initializer</td><td>He normal</td></tr>
+  <tr><td>Epochs</td><td>15</td></tr>
+  <tr><td>Batch Normalization</td><td>Added layers after convolution and max pooling layers</td></tr>
+  <tr><td>Layer Normalization</td><td>Added layers after convolution layers</td></tr>  
+</table>
 <img src="https://github.com/chandnii7/ConvolutionalNeuralNetwork/blob/main/data/out2.jpg" height="150" width="500"/>
 <br/>
 
