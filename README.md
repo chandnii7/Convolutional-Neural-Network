@@ -1,6 +1,6 @@
 # Convolutional Neural Network
 
-Program implements a basic convolutional neural network for classifying images of numbers in the MNIST dataset as either even or odd using GPU framework.
+Program implements a convolutional neural network for classifying images of numbers in the MNIST dataset as either even or odd using GPU framework.
 1. Contructing CNN: MNIST dataset is split into training, validation, and testing subsets with 55000, 10000, and 5000 examples, respectively. Digit labels are converted to even or odd using 0 and 1. Also plotting training and validation loss and accuracy as a function of epochs.
 2. Hyper-parameters Tuning: Evaluating different variations of basic network by changing:
    * network architecture
